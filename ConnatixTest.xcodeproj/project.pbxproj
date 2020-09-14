@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,9 @@
 		152D362724A3AB3500A7F03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152D362524A3AB3500A7F03E /* LaunchScreen.storyboard */; };
 		152D363224A3AB3600A7F03E /* ConnatixTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D363124A3AB3600A7F03E /* ConnatixTestTests.swift */; };
 		152D363D24A3AB3600A7F03E /* ConnatixTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D363C24A3AB3600A7F03E /* ConnatixTestUITests.swift */; };
+		7E0FCCDDE01C4852128ECCFE /* Pods_ConnatixTest_ConnatixTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A834A114F72548E3BBFD65 /* Pods_ConnatixTest_ConnatixTestUITests.framework */; };
+		B8DE3400587556F17BFCB7EE /* Pods_ConnatixTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B028A11B3FDF372887587859 /* Pods_ConnatixTestTests.framework */; };
+		E8BDD156B0D5F99A4885B119 /* Pods_ConnatixTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBB2DC49D40F992C158B341 /* Pods_ConnatixTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		152D363824A3AB3600A7F03E /* ConnatixTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnatixTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		152D363C24A3AB3600A7F03E /* ConnatixTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnatixTestUITests.swift; sourceTree = "<group>"; };
 		152D363E24A3AB3600A7F03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338407927F782264E3EC95E2 /* Pods-ConnatixTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTestTests.release.xcconfig"; path = "Target Support Files/Pods-ConnatixTestTests/Pods-ConnatixTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		53F9F51F5CE789DE0543C1F4 /* Pods-ConnatixTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTest.debug.xcconfig"; path = "Target Support Files/Pods-ConnatixTest/Pods-ConnatixTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6FBB2DC49D40F992C158B341 /* Pods_ConnatixTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnatixTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8400FE43EEC3D9747116BCCF /* Pods-ConnatixTest-ConnatixTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTest-ConnatixTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ConnatixTest-ConnatixTestUITests/Pods-ConnatixTest-ConnatixTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FB50E5A9782C711125F7E02 /* Pods-ConnatixTest-ConnatixTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTest-ConnatixTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ConnatixTest-ConnatixTestUITests/Pods-ConnatixTest-ConnatixTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8FE1E5D0394F630909693F77 /* Pods-ConnatixTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ConnatixTestTests/Pods-ConnatixTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B028A11B3FDF372887587859 /* Pods_ConnatixTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnatixTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A834A114F72548E3BBFD65 /* Pods_ConnatixTest_ConnatixTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnatixTest_ConnatixTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA51305D3E6027331184FF9 /* Pods-ConnatixTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnatixTest.release.xcconfig"; path = "Target Support Files/Pods-ConnatixTest/Pods-ConnatixTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BDD156B0D5F99A4885B119 /* Pods_ConnatixTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8DE3400587556F17BFCB7EE /* Pods_ConnatixTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0FCCDDE01C4852128ECCFE /* Pods_ConnatixTest_ConnatixTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				152D363024A3AB3600A7F03E /* ConnatixTestTests */,
 				152D363B24A3AB3600A7F03E /* ConnatixTestUITests */,
 				152D361824A3AB3200A7F03E /* Products */,
+				6D9605B1C67A04362B647832 /* Pods */,
+				1F1837A052F466E96E158400 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +153,29 @@
 			path = ConnatixTestUITests;
 			sourceTree = "<group>";
 		};
+		1F1837A052F466E96E158400 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FBB2DC49D40F992C158B341 /* Pods_ConnatixTest.framework */,
+				D2A834A114F72548E3BBFD65 /* Pods_ConnatixTest_ConnatixTestUITests.framework */,
+				B028A11B3FDF372887587859 /* Pods_ConnatixTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D9605B1C67A04362B647832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53F9F51F5CE789DE0543C1F4 /* Pods-ConnatixTest.debug.xcconfig */,
+				DCA51305D3E6027331184FF9 /* Pods-ConnatixTest.release.xcconfig */,
+				8400FE43EEC3D9747116BCCF /* Pods-ConnatixTest-ConnatixTestUITests.debug.xcconfig */,
+				8FB50E5A9782C711125F7E02 /* Pods-ConnatixTest-ConnatixTestUITests.release.xcconfig */,
+				8FE1E5D0394F630909693F77 /* Pods-ConnatixTestTests.debug.xcconfig */,
+				338407927F782264E3EC95E2 /* Pods-ConnatixTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 152D364124A3AB3600A7F03E /* Build configuration list for PBXNativeTarget "ConnatixTest" */;
 			buildPhases = (
+				EE35BC043E8BF2B70B79D73E /* [CP] Check Pods Manifest.lock */,
 				152D361324A3AB3200A7F03E /* Sources */,
 				152D361424A3AB3200A7F03E /* Frameworks */,
 				152D361524A3AB3200A7F03E /* Resources */,
+				8A42C103456C35EA9C9CE3C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 152D364424A3AB3600A7F03E /* Build configuration list for PBXNativeTarget "ConnatixTestTests" */;
 			buildPhases = (
+				3BE2A3913D234CC084DE8FDD /* [CP] Check Pods Manifest.lock */,
 				152D362924A3AB3600A7F03E /* Sources */,
 				152D362A24A3AB3600A7F03E /* Frameworks */,
 				152D362B24A3AB3600A7F03E /* Resources */,
@@ -178,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 152D364724A3AB3600A7F03E /* Build configuration list for PBXNativeTarget "ConnatixTestUITests" */;
 			buildPhases = (
+				4E53C1EE4D9838AC6A1EF821 /* [CP] Check Pods Manifest.lock */,
 				152D363424A3AB3600A7F03E /* Sources */,
 				152D363524A3AB3600A7F03E /* Frameworks */,
 				152D363624A3AB3600A7F03E /* Resources */,
+				74FBB1CD96265BB3F802A6B9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE2A3913D234CC084DE8FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnatixTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E53C1EE4D9838AC6A1EF821 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnatixTest-ConnatixTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74FBB1CD96265BB3F802A6B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest-ConnatixTestUITests/Pods-ConnatixTest-ConnatixTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest-ConnatixTestUITests/Pods-ConnatixTest-ConnatixTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest-ConnatixTestUITests/Pods-ConnatixTest-ConnatixTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A42C103456C35EA9C9CE3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest/Pods-ConnatixTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest/Pods-ConnatixTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConnatixTest/Pods-ConnatixTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE35BC043E8BF2B70B79D73E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnatixTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		152D361324A3AB3200A7F03E /* Sources */ = {
@@ -432,10 +580,12 @@
 		};
 		152D364224A3AB3600A7F03E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F9F51F5CE789DE0543C1F4 /* Pods-ConnatixTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnatixTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JSG7AL33A3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ConnatixTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,10 +601,12 @@
 		};
 		152D364324A3AB3600A7F03E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA51305D3E6027331184FF9 /* Pods-ConnatixTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ConnatixTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JSG7AL33A3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ConnatixTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,6 +622,7 @@
 		};
 		152D364524A3AB3600A7F03E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE1E5D0394F630909693F77 /* Pods-ConnatixTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +644,7 @@
 		};
 		152D364624A3AB3600A7F03E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338407927F782264E3EC95E2 /* Pods-ConnatixTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +666,7 @@
 		};
 		152D364824A3AB3600A7F03E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8400FE43EEC3D9747116BCCF /* Pods-ConnatixTest-ConnatixTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +686,7 @@
 		};
 		152D364924A3AB3600A7F03E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB50E5A9782C711125F7E02 /* Pods-ConnatixTest-ConnatixTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

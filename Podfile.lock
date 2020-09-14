@@ -1,0 +1,16 @@
+PODS:
+  - ConnatixPlayerSDK (1.4.5)
+
+DEPENDENCIES:
+  - ConnatixPlayerSDK (= 1.4.5)
+
+SPEC REPOS:
+  trunk:
+    - ConnatixPlayerSDK
+
+SPEC CHECKSUMS:
+  ConnatixPlayerSDK: 0a5324ae66309a9d58e745b0656f50fe828c816b
+
+PODFILE CHECKSUM: d49c58ad3661892ac930bbaeb809b05b3ea28c0b
+
+COCOAPODS: 1.9.3

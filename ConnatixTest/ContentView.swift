@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import ConnatixPlayerSDK
 
 struct ContentView: View {
     var body: some View {
